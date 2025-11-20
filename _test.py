@@ -2,11 +2,12 @@ import pytest
 
 # Function to test square
 def square(n):
-    return n ** 2
+    return n + n               # acid test n + n  # This is wrong! 2+2 is 4, but 3+3 is 6 (should be 9
 
 # Function to test cube
 def cube(n):
     return n ** 3
+
 
 # Function to test fifth power
 def fifth_power(n):
